@@ -1,0 +1,15 @@
+{
+  "name": "Carta de Poder",
+  "description": "Una carta poderosa con habilidades especiales.",
+  "image": "",
+  "attributes": [
+    {
+      "trait_type": "Ataque",
+      "value": 50
+    },
+    {
+      "trait_type": "Defensa",
+      "value": 30
+    }
+  ]
+}
