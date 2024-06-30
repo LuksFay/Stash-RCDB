@@ -1,0 +1,63 @@
+.card {
+  background-color: black;
+  width: 96vmin;
+  height: 180vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vmin;
+}
+.card .card-frame {
+  background-color: red;
+  width: 97.5%;
+  height: 98.5%;
+  border-radius: 1vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .card-frame .card-name {
+  height: 20vmin;
+  background-color: black;
+  color: white;
+  margin: 2vmin;
+  font-size: 10vmin;
+  display: flex;
+  align-items: center;
+  padding: 2vmin;
+}
+
+.card .card-frame .card-abilities {
+  height: 60vmin;
+  margin: 2vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.card .card-frame .card-abilities .ability {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+.card .card-frame .card-abilities .ability p {
+  font-size: 10vmin;
+  margin-right: 5vmin;
+  width: 15vmin;
+  height: 15vmin;
+  background-color: yellow;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vmin;
+}
+.card-description {
+  height: 50vmin;
+  background-color: black;
+  color: white;
+  margin: 2vmin;
+  font-size: 7vmin;
+  padding: 2vmin;
+}

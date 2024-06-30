@@ -1,15 +1,68 @@
-{
-  "name": "Carta de Poder",
-  "description": "Una carta poderosa con habilidades especiales.",
-  "image": "",
-  "attributes": [
+
+# Definición de cartas
+cartas = [
     {
-      "trait_type": "Ataque",
-      "value": 50
+        "name": "Rayo de Justicia",
+        "faction": "Pacto de Sistemas Galácticos",
+        "type": "Conflito",
+        "description": "Una poderosa descarga de energía que inmoviliza a los enemigos.",
+        "values": {"sphere1": 5, "sphere2": 3, "sphere3": 4},
+        "effects": {"stun": 2}
     },
     {
-      "trait_type": "Defensa",
-      "value": 30
+        "name": "Robo de Recursos",
+        "faction": "Piratas del Vacío",
+        "type": "Conflito",
+        "description": "Roban recursos del adversario, debilitando sus defensas.",
+        "values": {"sphere1": 4, "sphere2": 6, "sphere3": 2},
+        "effects": {"steal": 3}
+    },
+    {
+        "name": "Ritual de Fuerza",
+        "faction": "Tribu Cosmozoica",
+        "type": "Conflito",
+        "description": "Aumenta la fuerza bruta de los guerreros.",
+        "values": {"sphere1": 6, "sphere2": 4, "sphere3": 5},
+        "effects": {"strength": 3}
+    },
+    {
+        "name": "Conexión Natural",
+        "faction": "Bestias Celestiales",
+        "type": "Conflito",
+        "description": "Conectan con la naturaleza para obtener poder.",
+        "values": {"sphere1": 3, "sphere2": 5, "sphere3": 6},
+        "effects": {"heal": 3}
+    },
+    {
+        "name": "Hackeo de Sistemas",
+        "faction": "Sindicato de Autómatas",
+        "type": "Conflito",
+        "description": "Hackean los sistemas enemigos para obtener ventaja.",
+        "values": {"sphere1": 5, "sphere2": 4, "sphere3": 6},
+        "effects": {"hack": 2}
+    },
+    {
+        "name": "Sonar de Tidal",
+        "faction": "Refugius",
+        "type": "Conflito",
+        "description": "Utilizan sonares para detectar y contrarrestar.",
+        "values": {"sphere1": 4, "sphere2": 5, "sphere3": 3},
+        "effects": {"detect": 3}
+    },
+    {
+        "name": "Invocación Arcana",
+        "faction": "Academia de los Arcanos",
+        "type": "Conflito",
+        "description": "Invocan poderosos seres arcanos.",
+        "values": {"sphere1": 5, "sphere2": 4, "sphere3": 6},
+        "effects": {"summon": 2}
+    },
+    {
+        "name": "Ritual de la Nada",
+        "faction": "Culto de la Nada",
+        "type": "Conflito",
+        "description": "Realizan rituales oscuros para obtener poder.",
+        "values": {"sphere1": 6, "sphere2": 5, "sphere3": 4},
+        "effects": {"curse": 2}
     }
-  ]
-}
+]
